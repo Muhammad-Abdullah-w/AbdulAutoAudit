@@ -46,7 +46,7 @@ evidence_root/
 '''
 ```
 
-✅ The code automatically detects IDs inside folder names like:
+ The code automatically detects IDs inside folder names like:
 
 * '4.1'
 * '6.1.2'
@@ -77,7 +77,7 @@ Score = 0.45(keyword) + 0.45(fuzzy) + 0.10(semantic)
 '''
 
 
-## ⚙️ Installation
+##  Installation
 
 ### 1) Create a virtual environment (recommended)
 
@@ -123,17 +123,17 @@ python main.py
 
 ---
 
-## 📌 Output Files
+## Output Files
 
 After execution, the tool generates:
 
-### ✅ 1) Filled Checklist
+###  1) Filled Checklist
 
 '''
 iso27001_checklist_filled.xlsx
 '''
 
-### ✅ 2) JSON Summary Report
+###  2) JSON Summary Report
 
 '''
 iso27001_checklist_filled_summary.json
@@ -149,7 +149,7 @@ The JSON report includes:
 
 ---
 
-## ✅ Auto-Generating a Template Checklist (ISO Structure)
+##  Auto-Generating a Template Checklist (ISO Structure)
 
 If no checklist file is found, the tool can generate a **template Excel**:
 
@@ -186,5 +186,6 @@ project/
 └── outputs/
     ├── iso27001_checklist_filled.xlsx
     └── iso27001_checklist_filled_summary.json
+
 
 
