@@ -20,7 +20,7 @@ Your evidence folder should be organized by ISO 27001 clause/control IDs.
 
 Example:
 
-'''
+```bash
 evidence_root/
 │
 ├── Clause 4/
@@ -42,6 +42,7 @@ evidence_root/
         ├── A.8.9 Configuration management/
         │   ├── hardening_guide.docx
         │   ├── firewall_rules.pdf
+
 '''
 
 ✅ The code automatically detects IDs inside folder names like:
